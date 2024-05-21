@@ -1,5 +1,4 @@
 # GoLang Practice
-
 - Golang is a compiled language. Go tool can run directly, without Virtual Machine
 - Executables are different for Operating Systems.
 
@@ -14,7 +13,7 @@
 ### Object Oriented:
 - This is a mid way answer.
 - We don't have classes in Golang. We have structs in its place. 
-No: 
+-  We don't have the following in Go: 
 - Operator Overloading
 - Classes
 - Function Overloading
