@@ -26,4 +26,7 @@ func main() {
 		fmt.Println(num, "is not less than 10")
 	}
 	
+	if err := 0; err != nil {
+		fmt.Println(err)
+	}
 }
