@@ -40,4 +40,15 @@ func main() {
 	sort.Ints(highscore) // This will sort the slice in ascending order
 	fmt.Println("Highscore:", highscore) // This will print [100 200 300 500 600] as the slice is sorted in ascending order
 	fmt.Println(sort.IntsAreSorted(highscore)) // This will print true as the slice is sorted in ascending order or false if it was not sorted
+
+	
+	
+	// Removing an element from a slice based on index
+	var courses = []string{"Python", "Java", "Golang", "JavaScript", "Ruby"}
+	fmt.Println("Courses:", courses) // This will print [Python Java Golang JavaScript Ruby]
+	var index int = 2
+	courses = append(courses[:index], courses[index+1:]...) // This will remove the element at index 2 from the slice. The ... is used to unpack the slice. 
+	// If you don't use the ... then it will throw an error as the append function expects a list of arguments
+	// Unpacking means that the slice is expanded into individual elements
+	fmt.Println("Courses:", courses) // This will print [Python Java JavaScript Ruby]
 }
