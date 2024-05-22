@@ -18,15 +18,4 @@ func main() {
 	}
 
 	fmt.Println("Result:", result)
-
-	// Short statement - Declare a variable inside if condition
-	if num := 3; num < 10 {
-		fmt.Println(num, "is less than 10")
-	} else {	
-		fmt.Println(num, "is not less than 10")
-	}
-	
-	if err := 0; err != nil {
-		fmt.Println(err)
-	}
 }
